@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!--<div id="root"></div>-->
+    <!--<script type="module" src="/src/main.jsx"></script>-->
+    
+    <header class="tab-header">
+      <nav class="tab-nav">
+        <ul class="tab-list">
+          <li class="tab-item"><a href="#home" class="tab-link">About Me</a></li>
+          <li class="tab-item"><a href="#csharp" class="tab-link">C#</a></li>
+          <li class="tab-item"><a href="#python" class="tab-link">Python</a></li>
+          <li class="tab-item"><a href="#web" class="tab-link">Web</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home" class="section">
+        <div class="about-me">
+          <h1>About Me</h1>
+          <h2>Welcome to my Portfolio</h2>
+          <div class="about-content">
+              <img src="placeholder.jpg" alt="Portrait" class="portrait">
+              <p>Lorem Ipsum Placeholder text overview of me........</p>
+          </div>
+          <div class="buttons">
+              <button onclick="window.location.href='#projects'">Projects</button>
+              <button onclick="window.location.href='#contact'">Contact Me</button>
+          </div>
+      </div>
+      </section>
+      <section id="csharp" class="section">
+        <div class="csharp">
+          <h1>C# Projects</h1>
+          <h2>This is my C# Projects</h2>
+          <div class="csharp-content">
+              <img src="placeholder.jpg" alt="Image of Project" class="gallery-image">
+              <p>Lorem Ipsum Placeholder text ........</p>
+          </div>
+          <div class="buttons">
+              <button onclick="window.location.href='#projects'">Projects</button>
+              <button onclick="window.location.href='#contact'">Contact Me</button>
+          </div>
+      </div>
+      </section><section id="csharp" class="section">
+        <h2>C# Projects</h2>
+        <article>
+            <img src="project1.jpg" alt="Project Image">
+            <h3>Project Title</h3>
+            <h4>Project Subtitle</h4>
+            <p>Project description paragraph 1.</p>
+            <p>Project description paragraph 2.</p>
+            <button onclick="window.location.href='https://github.com/your-repo'">View on GitHub</button>
+        </article>
+        <!-- More articles as needed -->
+    </section>
+
+    <section id="python" class="section">
+        <h2>Python Projects</h2>
+        <!-- Articles similar to C# section -->
+    </section>
+
+    <section id="web" class="section">
+        <h2>Web Projects</h2>
+        <!-- Articles similar to C# section -->
+    </section>
+
+    <section id="others" class="section">
+        <h2>Other Projects</h2>
+        <!-- Articles similar to C# section -->
+    </main>
+  </body>
+</html>
