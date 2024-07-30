@@ -1,6 +1,7 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
+    color: #444;
 }
 
 header {
@@ -30,9 +31,20 @@ nav ul li a {
     display: block;
 }
 
-.section {
-    padding: 100px 20px 20px;
-    min-height: 100vh;
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: green;
+    margin-top: 0;
+}
+
+#home h1  {
+    color: blue;
+}
+
+
+section {
+    padding: 60px 20px;
 }
 
 #home {
@@ -56,6 +68,40 @@ nav ul li a {
     height: 150px;
     margin-right: 20px;
     align-items: center;
+}
+
+.project-content {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.project-content img.project-image {
+    margin-right: 20px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.project-content img.project-image:hover {
+    opacity: 0.75;
+    border-color: grey;
+}
+
+.project-content h2 {
+    margin-top: 0px;
+}
+
+.github-link {
+    display: flex;
+    align-items: center;
+}
+
+.github-link img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.github-link:hover {
+    opacity: 0.75;
 }
 
 .about-content p {
