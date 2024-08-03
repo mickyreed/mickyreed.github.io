@@ -149,3 +149,24 @@ article h3, article h4 {
 article p {
     margin: 10px 0;
 }
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .project-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .project-content img.project-image {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .project-content .description {
+        text-align: center;
+    }
+
+    .github-link {
+        justify-content: center;
+    }
+}
