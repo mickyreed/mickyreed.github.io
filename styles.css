@@ -85,6 +85,7 @@ section {
     padding: 5px;
     width: 280px;
     height: 280px;
+    object-fit: cover;
 }
 
 .project-content img.project-image:hover {
@@ -162,8 +163,9 @@ article p {
     .project-content img.project-image {
         margin-right: 0;
         margin-bottom: 20px;
-        width: 100;
+        width: 100px;
         height: 100px;
+        object-fit: cover;
     }
 
     .project-content .description {
