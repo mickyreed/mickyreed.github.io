@@ -162,18 +162,12 @@ article p {
     .project-content img.project-image {
         margin-right: 0;
         margin-bottom: 20px;
+        width: 200px;
+        height: 200px;
     }
 
     .project-content .description {
         text-align: center;
-    }
-
-    .project-content img.project-image {
-        margin-right: 0px;
-        border: 1px solid black;
-        padding: 5px;
-        width: 200px;
-        height: 200px;
     }
 
     .github-link {
