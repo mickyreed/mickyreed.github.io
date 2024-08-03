@@ -183,4 +183,11 @@ article p {
     .github-link {
         justify-content: center;
     }
+
+    nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        padding: 5px 10px;
+        display: block;
+    }
 }
