@@ -153,7 +153,74 @@ article p {
     margin: 10px 0;
 }
 
-/* Media query for mobile devices */
+
+/*
+CONTACT FORM
+*/
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+#contact h1 {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+    box-sizing: border-box; /* Include padding in the total width */
+}
+
+#contactForm label,
+#contactForm input[type="text"],
+#contactForm input[type="email"],
+#contactForm textarea,
+#contactForm input[type="submit"] {
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Include padding in the total width */
+}
+
+#contactForm input[type="text"],
+#contactForm input[type="email"],
+#contactForm textarea {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contactForm textarea {
+    height: 150px; /* Default height of the message box */
+}
+
+#contactForm input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#contactForm input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+/*
+MEDIA QUERY 
+for mobile devices
+*/
 @media (max-width: 768px) {
 
     .about-me {
