@@ -26,6 +26,14 @@
           emailjs.sendForm('contact_service', 'contact_form', this)
           .then(() => {
             console.log('SUCCESS!');
+            // Clear the form
+            this.reset();
+            // Display the message
+            document.getElementById('messageSent').style.display = 'block';
+            // Hide the message after 3 seconds
+            setTimeout(() => {
+              document.getElementById('messageSent').style.display = 'none';
+            }, 3000);
           }, (error) => {
             console.log('FAILED...', error);
           });
