@@ -60,6 +60,14 @@ section {
 
 .about-me .buttons {
     padding-top: 20px;
+
+}
+
+.about-me .buttons button {
+    border-radius: 10px; /* Rounded edges */
+    font-size: 16px; /* Button text size */
+    width: 150px; /* Fixed width for uniform size */
+    margin: 5px; /* Space between buttons */
 }
 
 .about-content {
