@@ -101,6 +101,11 @@ section {
     border-color: grey;
 }
 
+#projects {
+    padding: 0;
+    margin: 0;
+}
+
 .project-content h2 {
     margin-top: 0px;
 }
