@@ -81,8 +81,11 @@ section {
 .project-content {
     display: flex;
     margin-bottom: 50px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.project-content > .description{
     max-width: 1200px;
 }
 
