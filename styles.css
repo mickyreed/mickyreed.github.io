@@ -34,14 +34,10 @@ nav ul li a {
 h1 {
     font-size: 50px;
     text-align: center;
-    color: green;
+    color: #F76B4A;
+    text-shadow: 1px 1px 0px #555;
     margin: 15px;
 }
-
-#home h1  {
-    color: blue;
-}
-
 
 section {
     padding: 60px 20px;
@@ -113,6 +109,7 @@ section {
 .github-link {
     display: flex;
     align-items: center;
+    color: #F76B4A;
 }
 
 .github-link img {
@@ -214,7 +211,7 @@ CONTACT FORM
 }
 
 #contactForm input[type="submit"] {
-    background-color: #4CAF50;
+    background-color: #F76B4A;
     color: white;
     border: none;
     cursor: pointer;
