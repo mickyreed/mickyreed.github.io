@@ -81,6 +81,9 @@ section {
 .project-content {
     display: flex;
     margin-bottom: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    max-width: 1200px;
 }
 
 .project-content img.project-image {
@@ -100,7 +103,6 @@ section {
 #projects {
     padding: 0;
     margin: 0 auto;
-    width: 1200px;
     
 }
 
@@ -190,6 +192,8 @@ CONTACT FORM
     border: 1px solid #ccc;
     border-radius: 8px;
     background-color: #fff;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 #contactForm label,
@@ -260,6 +264,11 @@ for mobile devices
 
     .github-link {
         justify-content: center;
+    }
+
+    #contactForm {
+        width: 80%;
+        max-width: 400px;
     }
 
 }
