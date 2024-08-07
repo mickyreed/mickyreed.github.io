@@ -35,7 +35,7 @@ h1 {
     font-size: 50px;
     text-align: center;
     color: green;
-    margin-top: 0;
+    margin: 0;
 }
 
 #home h1  {
@@ -59,7 +59,7 @@ section {
 }
 
 .about-me .buttons {
-    padding-top: 20px;
+    padding-top: 10px;
 
 }
 
