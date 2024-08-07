@@ -70,16 +70,25 @@ section {
     margin: 5px; /* Space between buttons */
 }
 
-.about-content {
-    display: flex;
+.about-content > p {
+    display: inline-block;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
+    padding: 0;
+    margin: 0;
+}
+
+.about-content > ul{
+    text-align: left;
+    list-style-position: inside;
+    padding: 0;
+    margin: 0;
 }
 
 .profile img.portrait {
-    margin: 20px;
+    margin: 5px;
     align-items: center;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
 }
 
 .project-content {
