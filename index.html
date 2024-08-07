@@ -63,7 +63,7 @@
             <a href="#"><img class="portrait" width="180" height="180" src="images/ninja.png" alt="Image of Micky Reed"></a>
           </div>
           <div class="about-content">
-            <p>I am a graduate software developer with experience in:</p>
+            <p>A graduate software developer with experience in:</p>
             <ul>
               <li>C#, .NET MVC (UWP & Xamarin)</li>
               <li>Python</li>
@@ -99,12 +99,15 @@
               
               <div class="description">
                 <h2>Sum Of A Gun</h2>
-                <h3>Retro first person shooter prototype</h3>
-                <p>Prototype FPS game level made with C# in Unity, it is made in a retro 3D style with an aesthetic similar to Doom. 
-                  This is a GreyBoxed Level design built to test out a State Machine to Control Enemy AI behaviour 
-                  between idle, patrol, chase and attack. Two enemy variants have been created - Shooting and Melee Types, 
-                  and a weapon System to define weapon class types and ammo. There is also a key-card System to unlock various doors between Areas. 
-                </p>
+                <h3>Retro FPS prototype in the style of Doom made in with C# & Unity 3D</h3>
+                <ul>
+                  <li>This is a GreyBoxed Level design with Start, Settings & Pause Menus</li>
+                  <li>State machine to control enemy AI state - idle, patrol, chase and attack</li>
+                  <li>Both Melee and Ranged Enemy Variants</li>
+                  <li>Weapon System to define weapon class types, damage and ammunition properties</li>
+                  <li>Key-card System to unlock various doors between map areas</li>
+                  <li>GUI Canvas Featuring Health Bar, Ammo Type and Count and Score</li>
+                </ul>
                 <a href="https://github.com/mickyreed/SumOfAGun/tree/v1.3_Branch" class="github-link">
                   <img src="images/github.png" alt="GitHub Icon">
                   View GitHub Repository
@@ -120,11 +123,15 @@
             </a>
             <div class="description">
               <h2>Task Tracker</h2>
-              <h3>A Prototype App to track Tasks</h3>
-              <p>A Task Manager app prototype built using C# for Universal Windows Platform (UWP) that can Track Tasks, Habits and Repeat Tasks, 
-                Save and Load data from file, keep state, and Create Tasks with due dates from Natural Language, 
-                by using regex and Microsoft.Recognizers.Text. to filter the user input and recognise date and times from other Task information
-              </p>
+              <h3>A Task Manager app built using C# & .Net (UWP)</h3>
+              <ul>
+                <li>Features classes for Tasks, Habits and Repeat Tasks showcasing Inheritance and OOP</li>
+                <li>Save and Load data from file using binary and also to SQL database</li>
+                <li>Ability to set light or Dark mode and keep state between views</li>
+                <li>CRUD functionality for both Tasks and Different Folders</li>
+                <li>Create Tasks from Natural Language using regex and Microsoft.Recognizers.Text to filter the user input</li>
+                <li>Can Recognise and split date and times from other Task information</li>
+              </ul>
               <a href="https://github.com/mickyreed/TaskList1-1" class="github-link">
                 <img src="images/github.png" alt="GitHub Icon">
                 View GitHub Repository
@@ -146,10 +153,14 @@
             <div class="description">
               <h2>Guess My Word</h2>
               <h3>A Python Console Clone of the popular Wordle Game</h3>
-              <p>
-                This is a game that runs in the console, built with Python, it is a clone of the popular Wordle Game where the Player has to guess the daily 5 Letter Word
-                in a limited number of guesses. This console version displays the correct guesses in color coded format depending on the correct location of the guessed letter.
-                It also keeps a record of the letters guessed so far, and keeps a record of the high scores. Scores are based on time and number of turns to guess the answer.
+                <ul>
+                  <li>Retro style Game where the Player has limited tries to guess the daily 5 Letter Word </li>
+                  <li>Keeps a List of Daily Words and Possible 5 Letter Word combinations to iterate through</li>
+                  <li>Displays the letters in color format based on the position of the guessed letter.</li>
+                  <li>Tracks and displays letters used and letters remaining and and accounts for multiplicity</li>
+                  <li>Has a score system based on time and number of guesses taken</li>
+                  <li>Function for players to input name and save high score to file</li>
+                </ul> 
               </p>
               <a href="https://github.com/mickyreed/guess_my_word" class="github-link">
                 <img src="images/github.png" alt="GitHub Icon">
@@ -163,17 +174,13 @@
               <img class="project-image" src="images/telloDrone.jpg" alt="Image of Project"></a>
             <div class="description">
               <h2>Drone Commander</h2>
-              <h3>A Python/Django Tello Drone Controller with Custom CRUD to control DJTelloPy drone swarms</h3>
-              <p>
-                MyDroneControl is a Tello drone controller made for Diploma Advanced Programming. 
-                The app uses Django with a custom crud and template to control drone swarms using the DJITelloPy package.
-                The app features the following:</p>
+              <h3>DJITelloPy drone controller interface built using Python/Django</h3>
                 <ul>
                   <li>Login and Register functionality for users</li>
-                  <li>Create, update and Delete Drones and Swarms of Drones</li>
-                  <li>Tello Drone Controller where you can view drones and what swarms they belong to</li>
-                  <li>A dropdown menu to select a swarm to launch and a launch button</li>
-                  <li>A Telemetry Flight Data feedback section which displays flight data related to the battery and flight time at the end of each launch.</li>
+                  <li>Custom CRUD to Create, update and Delete Drones and Swarms of Drones</li>
+                  <li>Dashboard where you can view drone and swarm information</li>
+                  <li>A dropdown menus to select drones and swarms and a launch button</li>
+                  <li>A Telemetry Flight Data feedback section which displays incoming flight data.</li>
                 </ul> 
               <a href="https://github.com/mickyreed/DroneCommander" class="github-link">
                 <img src="images/github.png" alt="GitHub Icon">
@@ -195,12 +202,18 @@
             </a>
             <div class="description">
               <h2>Innovative Greenhouse Monitoring System</h2>
-              <h3>Harnessing IoT and Mixed Reality with Microsoft HoloLens</h3>
-              <p>
-                The project utilizes the power of Microsoft HoloLens, Azure, Unity (C#), and IoT technologies (Arduino & C++) to develop a cutting-edge solution for
-                monitoring and maintaining optimal conditions in greenhouses and hydroponic farming systems. 
-                Designed for small-scale operations with the potential for adaptation to larger-scale applications, it offers a glimpse 
-                into the future of automated farming.
+              <h3>IoT solution that uses mixed reality, digital twins and cloud services</h3>
+              <ul>
+                <li>Harnessing the power of Microsoft HoloLens, Azure and Arduino </li>
+                <li>Monitors optimal conditions in greenhouses hydroponic farming systems</li>
+                <li>Collaborative small team solution for client with real world application </li>
+                <li>Publishes telemetry data from IoT sensors to Azure IoT Hub using mqtt</li>
+                <li>Use of streaming analytics, SQL database storage and Azure Functions</li>
+                <li>Can view & adjust optimal data ranges & set email alerts via Web based dashboard </li>
+                <li>Interact with near real time data using Microsoft Hololens & Mixed Reality</li>
+                <li>Automatically micro-dose nutrient solution based on optimal PH range</li>
+              </ul>
+              <pnu
                 This was a collaborative small team project providing an integrated solution for monitoring an existing hydroponic system, sending
                 telemetry data to Azure IoT Hub and SQL database where it can be retrieved and viewed via a cloud based dashboard, and also
                 be used to provide interactability with a digital twin model via use of Mixed reality on the Microsoft Hololens.

@@ -80,8 +80,7 @@ section {
 
 .project-content {
     display: flex;
-    margin-bottom: 50px;
-    margin: 0 auto;
+    margin: 20px auto 20px auto;
     max-width: 1000px;
 }
 
