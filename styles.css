@@ -39,6 +39,10 @@ h1 {
     margin: 15px;
 }
 
+p {
+    font-size:18px;
+}
+
 section {
     padding: 60px 20px;
 }
@@ -50,6 +54,7 @@ section {
 
 .about-me {
     text-align: center;
+    font-size: 18px;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -61,14 +66,15 @@ section {
 
 .about-me .buttons button {
     border-radius: 10px; /* Rounded edges */
-    font-size: 16px; /* Button text size */
+    font-size: 18px; /* Button text size */
     width: 150px; /* Fixed width for uniform size */
     margin: 5px; /* Space between buttons */
 }
 
 .about-content ul{
-    width: 250px;
+    width: 300px;
     text-align: left;
+    line-height: 25px;
     margin: 0 auto;
 }
 
@@ -80,9 +86,18 @@ section {
 
 .project-content {
     display: flex;
-    margin: 30px auto;
+    margin: 60px auto 0px auto;
     max-width: 1000px;
+
+    /* Border Box around project content */
+    background-color: #f0f0f0; 
+    padding: 20px; 
+    border-radius: 15px; 
+    border: 1px solid #ccc; 
+    box-shadow: 0px 4px 6px #44444420; 
 }
+
+    
 
 .project-content > .description{
     max-width: 1200px;
@@ -102,6 +117,11 @@ section {
     border-color: grey;
 }
 
+.description li {
+    text-align: left;
+    line-height: 25px;
+}
+
 #projects {
     padding: 0;
     margin: 0 auto;
@@ -109,7 +129,7 @@ section {
 }
 
 #projects h1 {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .project-content h2 {
@@ -120,6 +140,14 @@ section {
     display: flex;
     align-items: center;
     color: #F76B4A;
+}
+
+.product-link {
+    color: #F76B4A;
+}
+
+.product-link:hover {
+    opacity: 0.75;
 }
 
 .github-link img {
@@ -167,6 +195,10 @@ article h3, article h4 {
 
 article p {
     margin: 10px 0;
+}
+
+article li {
+    text-align: left;
 }
 
 
