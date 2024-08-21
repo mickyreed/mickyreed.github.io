@@ -12,12 +12,6 @@ header {
     color: #fff;
 }
 
-footer {
-    text-align: center;
-    margin: 10px auto 10px auto;
-    align-items: center;
-}
-
 nav ul {
     display: flex;
     justify-content: center;
@@ -269,17 +263,6 @@ CONTACT FORM
     background-color: #f4441c;
 }
 
-#map {
-    display: block;
-    text-align:center;
-}
-
-iframe {
-    width: 400px;
-    height: 320px;
-    margin: 5px;
-    border: 4px #444;
-}
 
 /*
 MEDIA QUERY 
