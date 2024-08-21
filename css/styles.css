@@ -84,38 +84,6 @@ section {
     margin: 0 auto;
 }
 
-.other-skills ul{
-    max-width: 800px;
-    text-align: left;
-    line-height: 25px;
-    margin: 0 auto;
-    padding: 5px;
-}
-
-#other-skills{
-    text-align: center;
-    line-height: 25px;
-    margin: 0 auto;
-    padding: 5px;
-}
-
-.other-skills {
-    display: block;
-    text-align: center;
-    font-size: 18px;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.other-skills div {
-    /* Border Box around other-skills divs */
-    background-color: #f0f0f0; 
-    padding: 20px; 
-    border-radius: 15px; 
-    border: 1px solid #ccc; 
-    box-shadow: 0px 4px 6px #44444420; 
-}
-
 .profile img.portrait {
     margin: 5px;
     align-items: center;
